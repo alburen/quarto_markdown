@@ -1,6 +1,6 @@
 # Descripción
 
-Una pequeña demo de cómo usar Quarto Markdown para generar documentos en docx o en pdf (copn typst, que no requiere tener LATEX instalado).
+Una pequeña demo de cómo usar Quarto Markdown para generar documentos en docx o en pdf (con typst, que no requiere tener LATEX instalado (https://www.latex-project.org/)).
 
 El arcchivo de interés es el "Documento.qmd", ya que 01.qmd y 02.qmd se insertan en el anterior como si fueran apartados o capítulos del documento principal.
 
@@ -26,6 +26,6 @@ Si quieres especificar el formato de salida a otros compatibles con Quarto se pu
 
 *quarto render Documento.qmd --to docx*
 
-*quarto render Documento.qmd --to typst* (éste genera un pdf sin la dependencia de LATEX (https://www.latex-project.org/))
+*quarto render Documento.qmd --to typst* (éste genera un pdf sin la dependencia de LATEX)
 
 Incluyo de todos modos los resultados obtenidos tras renderizar "Documento.qmd" a "Documento.pdf" y "Mi_Documento.docx" (éste nombre se ha personalizado en el YAML)
