@@ -1,3 +1,0 @@
-quarto render Documento.qmd
-quarto render Documento.qmd --to docx
-quarto render Documento.qmd --to typst
