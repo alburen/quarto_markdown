@@ -25,6 +25,7 @@ Y para renderizar el archivo "Documento.qmd" a los formatos definidos en el YAML
 Si quieres especificar el formato de salida a otros compatibles con Quarto se puede especificar de la siguiente manera:;
 
 *quarto render Documento.qmd --to docx*
+
 *quarto render Documento.qmd --to typst* (éste genera un pdf sin la dependencia de LATEX (https://www.latex-project.org/))
 
 Incluyo de todos modos los resultados obtenidos tras renderizar "Documento.qmd" a "Documento.pdf" y "Mi_Documento.docx" (éste nombre se ha personalizado en el YAML)
