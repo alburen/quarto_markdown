@@ -1,0 +1,69 @@
+# Otro apartado o capítulo principal del documento
+
+## Subapartado de nivel 2
+
+### Subapartado de nivel 3
+
+A continuación he incluido un ejemplo de tabla en formato markdown, pero utilizando Python o R se pueden incluir y representar tablas mucho más complejas, como la que se ve en la @tbl-datos-coches, para la que se ha utilizado un paquete de R llamado "flextable".
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+```{r}
+#| label: tbl-datos-coches
+#| tbl-cap:  Datos de ejemplo
+
+flextable(head(mtcars))
+```
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tincidunt sapien et dapibus interdum. Donec sit amet nisi gravida, vehicula est ac, facilisis leo. Pellentesque malesuada sapien eu nisi auctor, sed placerat massa vestibulum. Duis dapibus diam a vulputate consequat. Aenean rutrum, nibh eu consectetur condimentum, lacus quam sollicitudin libero, sit amet malesuada arcu odio id diam. In vitae turpis est. In viverra magna neque, posuere blandit eros vestibulum quis. Vestibulum ante ante, efficitur ut neque vitae, mollis iaculis ante.
+
+Proin mattis lorem nisi, at rutrum turpis dignissim ut. Fusce eros nibh, cursus sit amet rhoncus ut, molestie a est. Integer quam orci, sodales quis tincidunt quis, sodales sit amet sem. In hac habitasse platea dictumst. Duis sit amet elit tincidunt, posuere nisl ut, interdum ante. Cras molestie pulvinar libero ac viverra. Donec blandit, felis pellentesque aliquet eleifend, ante eros ultricies ex, in tristique odio nisl in libero. Fusce auctor arcu mollis lacinia tempus. Aenean sodales lorem tortor, vitae faucibus nulla maximus mattis. Nullam vestibulum, purus id vestibulum tempus, lacus est convallis nisl, molestie auctor sapien tellus nec magna.
+
+Curabitur tincidunt dapibus augue id pellentesque. Etiam euismod hendrerit neque et luctus. Nunc sodales efficitur ornare. Nam in tempus nisi, et sollicitudin erat. Etiam gravida molestie nisl. Nulla eu dui vel orci rutrum fringilla. Curabitur ornare nisi sed condimentum ultricies. Integer tempor libero lorem, ac rhoncus massa tempus tempor. Duis a leo eget enim rhoncus posuere sed in velit.
+
+### Subapartado de nivel 3
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Pellentesque non auctor urna. Nulla venenatis eleifend maximus. Nam bibendum, neque eu pharetra pharetra, odio nibh rutrum risus, in rutrum nulla nisi in massa. Pellentesque tortor urna, sollicitudin nec placerat nec, iaculis nec mauris. Curabitur cursus neque sed nibh placerat ornare. Donec ut lectus in leo efficitur dictum sit amet sit amet dolor. Ut sed justo vel tortor viverra luctus vitae at libero. Etiam cursus id enim quis hendrerit. Nullam condimentum, magna non blandit auctor, ipsum ex congue odio, at facilisis nibh ipsum vitae dolor. Aliquam erat volutpat. Donec sit amet mi eget mauris laoreet viverra. Nulla sagittis placerat ipsum, non finibus nibh semper vel. Suspendisse faucibus eu est in dignissim. Quisque quis nisi tellus. Pellentesque tempus orci ac justo aliquam, nec gravida nunc vestibulum.
+
+Nulla maximus mauris arcu, at vehicula mauris fermentum vel. Aenean odio est, elementum a urna vel, gravida accumsan nulla. Cras at urna vitae urna condimentum varius quis ac elit. Curabitur sed sem ligula. Sed eu nunc viverra, maximus urna vel, pellentesque mi. Aenean ullamcorper arcu sit amet posuere condimentum. Sed egestas turpis quis risus lobortis, in convallis dui iaculis. Aliquam consequat maximus turpis vitae efficitur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce massa erat, hendrerit eu enim ac, pellentesque sodales nisi. Suspendisse facilisis mi quis ante mattis porta. Nunc nisi ligula, fringilla at tempor ut, tincidunt ac urna. Nunc tristique condimentum tortor.
+
+Curabitur eget lectus non arcu ornare imperdiet. Etiam hendrerit ante dapibus nulla tincidunt blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis lacinia arcu placerat, iaculis turpis sit amet, imperdiet mi. Etiam et feugiat nibh. Suspendisse volutpat posuere ornare. Cras viverra porta tempus. Praesent rutrum diam id lacus egestas volutpat. Donec vitae enim id nunc ultrices egestas. Phasellus mollis tempus augue at consectetur. Morbi non sodales libero. Sed volutpat risus justo, eget ultricies odio volutpat sed. Aliquam varius quis augue sit amet scelerisque. Praesent fringilla imperdiet felis, id rhoncus augue commodo vitae.
+
+Nulla viverra vulputate ipsum ac varius. Praesent rhoncus arcu et massa tincidunt venenatis in id leo. Nullam non vestibulum nunc. Praesent ornare risus vel rhoncus auctor. Pellentesque non sollicitudin leo, eu congue purus. Nullam auctor nisl nisi, quis viverra nisl mattis quis. Integer dolor orci, molestie et tortor vitae, rhoncus posuere sem. Cras congue malesuada purus quis ultrices. Proin pulvinar sit amet ante at gravida. Morbi congue tristique gravida. Sed laoreet velit tortor. Vivamus fermentum orci sit amet ex egestas, sit amet euismod elit iaculis.
+
+### Subapartado de nivel 3
+
+Quisque nec imperdiet ipsum. Nam non tortor accumsan, luctus orci vitae, luctus velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam risus ligula, fermentum ac ligula tempor, placerat laoreet leo. Etiam eu elit erat. Sed sit amet tortor et lacus interdum elementum quis molestie mi. Sed vulputate turpis vitae lobortis dictum. Etiam a tempus ex. Quisque dolor augue, dictum ut ultrices et, malesuada at sem. Morbi sed leo eget mauris volutpat egestas ut non metus. Curabitur accumsan vitae metus vel eleifend. Quisque quis rutrum arcu, et vulputate sapien. Mauris id commodo velit.
+
+Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris bibendum ipsum vitae est semper, ac porttitor turpis mattis. Sed suscipit augue mi, vel cursus nibh ullamcorper ut. Maecenas euismod enim est, id sollicitudin velit vestibulum in. Donec arcu odio, tristique sit amet orci ac, scelerisque pharetra sapien. Phasellus faucibus sollicitudin massa, in viverra arcu sodales nec. Suspendisse rutrum ante lorem, sed pretium elit sagittis feugiat. Proin at nibh eget sapien vehicula interdum. Nullam tortor metus, scelerisque vel commodo eu, blandit a risus. Aenean pellentesque sollicitudin lacus ornare sodales. Pellentesque placerat aliquet magna, eu rutrum augue elementum nec. Nullam sodales tortor elit, non consequat lectus cursus sed. In tortor dolor, tristique ut tellus ut, euismod eleifend ipsum. Morbi et sem ullamcorper, tempus ante at, semper justo. Etiam tincidunt sapien nec metus posuere congue. Morbi a mi vitae lorem egestas varius.
+
+Aliquam blandit feugiat arcu, eu malesuada purus blandit sit amet. Fusce porttitor varius sollicitudin. Pellentesque tincidunt libero eros, ut ultricies erat cursus non. Maecenas porttitor neque nec pharetra malesuada. Nulla nec orci aliquet, posuere nisi vitae, mattis nulla. Maecenas ultricies eget erat et viverra. Mauris non rutrum turpis, eu tincidunt mauris.
+
+Quisque efficitur mi et massa tempus, in pretium nulla mollis. Nullam quis augue nulla. Proin convallis ante at nisl scelerisque tempor. Pellentesque risus sapien, laoreet sit amet faucibus non, blandit sit amet turpis. Nam sed pellentesque libero. Suspendisse potenti. Nullam non tortor sapien. Pellentesque malesuada elementum lacus. Maecenas vulputate nec nisl id rutrum.
+
+Integer sit amet leo sit amet dolor posuere tincidunt ut in lacus. Maecenas fringilla est sit amet odio mollis tincidunt. Fusce luctus ac nibh vitae semper. Mauris faucibus ac urna nec sollicitudin. Nunc erat urna, rutrum sit amet sapien eu, blandit blandit purus. Quisque non porta mauris, nec suscipit elit. Morbi luctus risus nec tellus faucibus pellentesque. Curabitur ut urna sit amet nulla gravida accumsan a ut arcu. Vivamus faucibus nunc vitae ex aliquet egestas. Nulla semper lacus ut suscipit accumsan. Duis condimentum luctus turpis finibus finibus. In elit dolor, facilisis nec aliquet ac, mattis quis massa. Etiam lorem ipsum, gravida eget porttitor eget, convallis ut nisl. Sed a ultrices turpis, vel euismod velit.
+
+## Subapartado de nivel 2
+
+### Subapartado de nivel 3
+
+Aliquam id mattis urna, in semper justo. Vivamus est justo, dignissim rhoncus orci in, facilisis pellentesque velit. Aliquam tincidunt mauris magna, ut aliquet metus convallis id. Praesent blandit lectus porttitor eros ornare efficitur. Sed at accumsan mi, ut ornare purus. Donec egestas luctus ipsum, vitae convallis magna rutrum quis. Curabitur commodo eros et consectetur faucibus. Vestibulum sit amet facilisis sem. Cras non dolor ligula.
+
+Aenean ut iaculis ligula. Curabitur eu neque dignissim nisl luctus efficitur vel id ipsum. Pellentesque accumsan est a sem commodo scelerisque. Pellentesque dignissim leo est, quis tempor orci pellentesque eget. Donec a rutrum enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla commodo malesuada quam, sit amet dictum justo dignissim eu. Sed ligula mauris, lacinia a fringilla quis, porttitor vel lorem. Aenean ac gravida urna. Aliquam sit amet augue quis magna placerat scelerisque et vel elit. Sed ex nunc, lobortis eget risus dictum, pharetra finibus mauris. Vestibulum nec eleifend lacus. Cras commodo dolor ex, vel laoreet orci rutrum ac. Nunc porta nibh ac enim accumsan molestie.
+
+Sed posuere, dolor in pretium elementum, lorem nibh auctor nunc, a imperdiet nibh est nec justo. Integer blandit, justo luctus tincidunt suscipit, justo lacus lobortis tortor, feugiat pellentesque arcu elit vel mi. Donec ac vulputate risus. Integer elementum velit felis, eu pretium turpis luctus gravida. Pellentesque non magna massa. Cras porta magna sed risus congue varius. Sed iaculis dignissim purus, nec pretium arcu vehicula vitae. Suspendisse feugiat, ipsum eu fringilla cursus, diam nulla aliquet dolor, eget pulvinar sem urna pretium risus. Vivamus a sollicitudin ligula, a molestie lacus. Integer purus tortor, volutpat nec tortor consequat, facilisis gravida ex.
+
+Integer magna massa, fermentum a ultrices at, placerat egestas nunc. Duis fringilla consectetur orci, nec pellentesque dolor maximus non. Etiam feugiat quis enim a tincidunt. Nulla facilisi. In erat sapien, volutpat tincidunt mauris et, accumsan euismod turpis. Phasellus consequat risus sit amet elit egestas efficitur. Fusce eleifend, nisl ut feugiat tincidunt, metus nulla bibendum leo, ut sollicitudin enim eros ac urna. Duis hendrerit leo non consequat scelerisque. Curabitur eget risus commodo, eleifend sem et, blandit nulla. Mauris imperdiet tincidunt magna, vel imperdiet enim posuere a. Suspendisse magna magna, cursus congue vehicula sit amet, consequat ac sapien.
+
+Curabitur ut varius justo. Duis erat nisi, consectetur in pretium eget, accumsan eu nunc. Curabitur sollicitudin enim quis quam pharetra, sit amet dictum urna finibus. Aliquam quis nunc dui. Integer nec nunc sed nisi venenatis lacinia. Mauris dolor odio, laoreet ut efficitur vel, lobortis consequat leo. Morbi iaculis lobortis purus vitae fermentum. Quisque sed neque et ligula accumsan tempus ac non eros. Phasellus posuere euismod felis, sit amet cursus ante sollicitudin in. Sed iaculis laoreet ante, eget sodales arcu ultricies eu. Sed eleifend ultrices tortor. Proin est mi, pretium sed posuere nec, fringilla a massa. Quisque pretium ante lectus, sit amet volutpat erat egestas a.
+
+Integer ornare tellus sit amet leo suscipit, sed tincidunt urna consequat. Sed condimentum justo vestibulum, lobortis eros sed, molestie arcu. Vivamus eros est, volutpat ut pretium nec, laoreet porttitor urna. Morbi blandit sem nec scelerisque maximus. Curabitur egestas ligula at nunc gravida lacinia. Pellentesque vel consequat ligula, sit amet pharetra enim. Donec rutrum ex vel purus ornare, in posuere nibh iaculis. Fusce mollis, nisl id elementum ullamcorper, augue enim ultrices leo, eget efficitur mauris mi ac mauris. Nulla sed metus ac dolor ultricies egestas ac at mauris. Pellentesque ut risus ac ipsum consequat convallis. Duis eget ipsum aliquam, ultrices risus vel, aliquam purus. Morbi dignissim laoreet lobortis. Nunc eu velit ornare, accumsan ipsum vel, hendrerit diam. Vivamus at turpis ut velit porta condimentum ut sed dui. In nec elit ante. Suspendisse elit mauris, interdum bibendum venenatis at, blandit a dui.
+
+Nulla maximus dolor ac nisl luctus, eget interdum augue varius. Nullam viverra rhoncus libero sed fringilla. Integer pharetra a sapien vitae cursus. Integer ut arcu ultricies, porttitor ipsum vel, porta velit. Aenean tincidunt erat mollis dictum varius. Sed tortor nisl, ultricies ultricies malesuada hendrerit, interdum in elit. Etiam iaculis nulla id luctus rutrum. Mauris eu tincidunt diam.
+
+Ut id mollis nunc. Nam fermentum elit orci, id fermentum enim ultricies id. Donec nec mauris aliquet, facilisis turpis sit amet, commodo urna. Sed gravida odio et ante consequat rutrum. Praesent fringilla egestas dolor quis consectetur. Sed ullamcorper neque in facilisis mattis. Curabitur vel purus consequat, egestas ante sed, dapibus diam. Etiam quis consectetur sapien, eget luctus turpis. Donec sit amet dui lobortis, tristique leo vel, tincidunt lectus. Nullam bibendum neque id lacus consectetur condimentum. Phasellus commodo est sed neque imperdiet, id dictum sem rhoncus. Nulla ante ipsum, malesuada id tellus at, dapibus ultrices tortor. Vivamus venenatis blandit odio, rhoncus vestibulum velit placerat non. Quisque tortor odio, suscipit in enim scelerisque, finibus fringilla dui. Praesent at ultrices augue. Quisque non eleifend risus.
+

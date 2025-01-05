@@ -1,0 +1,22 @@
+# Introducción
+
+Este tipo de estudios constituyen un instrumento que vela porque los proyectos de obras y actividades tengan en consideración el paisaje desde las primeras fases de desarrollo del mismo, como son el diseño y la conceptualización del proyecto, por ser éste el momento en el que las estrategias de integración cuentan con mayor potencial de éxito. Así, el objetivo final es mantener los objetivos de calidad paisajística y que el proyecto responda a dicha finalidad, analizando las afecciones que, sobre los elementos que configuran el paisaje, pueda tener su construcción y explotación.
+
+## Datos generales del Proyecto
+
+### Nombre y características del Proyecto
+
+<!--Esto es un comentario en formato de Markdown que no se visualiza en el resultado pero es útil en los documentos de trabajo-->
+
+La instalación proyectada tiene como finalidad el ser conectada a la red eléctrica a través de la subestación ST XXXXX en nivel de tensión de 30 kV, lo que permitirá el almacenamiento de energía eléctrica consumida desde la red para, posteriormente, descargarse devolviendo la energía al sistema eléctrico.
+
+### Promotor
+
+El promotor del Proyecto es **`r params$promotor`** <!--Esto mostrará el promotor en negrita sin que se vea en el exportado-->
+
+### Situación
+
+El *`r params$proyecto`* <!--Esto mostrará el título del proyecto en cursiva--> se sitúa íntegramente dentro de los límites del término municipal de `r params$municipio`, en la provincia de Bizkaia. Concretamente en la parcela cuya referencia catastral es XXXXXXXX, que tiene un área de 10.277 m^2^, no obstante, la instalación de almacenamiento ocupará un área de 1.247,96 m^2^.
+
+![Ubicación del Proyecto](Imagen_Ejemplo.jpg){#fig-ubicacion-proyecto}
+

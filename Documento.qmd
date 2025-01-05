@@ -1,0 +1,40 @@
+---
+# Esto se llama YAML y es donde se configuran las propiedades del documento y de su salida
+title: "PROYECTO DE PRUEBA PARA CONOCER QUARTO Y MARKDOWN"
+lang: es
+format:
+ docx:
+  toc: true
+  toc-depth: 3
+  toc-title: "Tabla de contenido"
+  number-sections: true
+  output-file: "Mi_Documento.docx"
+ typst:
+  papersize: a4
+  toc: true
+  toc-depth: 3
+  number-sections: true
+params: #Este apartado del YAML requiere usar python o R como lenguajes de programación para que al ejecutarse al menos un bloque de código, se generen las variables (python) o lista de valores (R) que luego se puedan integrar en el texto
+  proyecto: "Proyecto de Prueba"
+  promotor: "El que tiene la pasta"
+  municipio: "Güeñes"
+execute:
+  echo: false
+  warning: false
+  message: false
+  cache: false
+---
+
+```{r setup}
+library(tidyverse)
+library(flextable)
+```
+
+
+\newpage
+
+{{< include 01.qmd >}}
+
+\newpage
+
+{{< include 02.qmd >}}
